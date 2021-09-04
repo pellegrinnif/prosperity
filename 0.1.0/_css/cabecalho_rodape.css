@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Cabecalho */
+
+#cabecalho{
+    width: 360px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    background-color: #4DBFFF;
+    display: flex;
+}
+.cabecalhoTitulo{
+    font-family: Roboto;
+    font-size: 16px;
+    margin: auto;
+    justify-content: center;
+}
+
+.cabecalhoLogo img{
+    width: 40px;
+    height: 40px;
+    margin: 23px 5px 0 0;
+}
+
+/* Rodape */
+#rodape{
+    width: 360px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    background-color: #4DBFFF;
+    display: flex;
+    align-content: center;
+}
+.rodapeLogo{
+    display: flex;
+    margin: auto;
+}
+.rodapeLogo img{
+    width: 40px;
+    height: 40px;
+    margin:0 15px;
+}

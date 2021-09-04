@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navTabs{
+    width: 340px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    border: 1px solid rgb(218, 216, 216);
+}
+.navTabs ul{
+    list-style: none;
+}
+.navTabs ul li{
+    float: left;
+}
+.navTabs label{
+    width: 90px;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+.rdTabs:checked ~ label{
+    border-bottom: 1px solid grey;
+}
+.rdTabs{
+    display: none;
+}
+.tabContend{
+    display: none;
+    width: 330px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+}
+.rdTabs:checked ~ .tabContend{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: grey;
+}
+.tabContend article{
+    padding: 5px;
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    height: 90px;
+}
+
+.corpo{
+    margin: 0;
+    padding: 0;
+}
+.corpoFrame{
+    width: 360px;
+    height: 460px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(223, 219, 219);
+}
+.corpoFrame img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#imgProjeto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
