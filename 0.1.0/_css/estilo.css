@@ -76,3 +76,56 @@ header{
     display: flex;
     justify-content: center;
 }
+
+/* Logon Frame */
+.logonFrame{
+    width: 360px;
+    height: 460px;
+    display: block;
+    font-family: roboto;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.logonFrame p{
+    margin-top: 10px;
+    font-size: 10px;
+    color: gray;
+}
+.logonFormItem{
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+#mobileNumber{
+    margin: 25px 0 0 0;
+}
+#user{
+    margin: 25px 0 10px 0;
+}
+
+.textLink{
+    margin-top: 10px;
+}
+
+/* Logon Criar Conta */
+#optionButton{
+    display: flex;
+    justify-content: center;
+}
+
+.logonButtonExit{
+    background-color:gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.logonButtonSend{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
