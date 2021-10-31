@@ -14,7 +14,6 @@ function validateLogonCriarConta(){
     } 
         
     if ((iCodeVisible == null) && (logonValidaSenha(passwd,passwdConfirm))){
-//        window.open("http://www.w3schools.com","_blank");
         document.getElementById("dConfirmCode").style.display = "block";
     }
     return false;

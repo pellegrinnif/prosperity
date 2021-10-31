@@ -22,7 +22,7 @@
     margin: 5px;
     display: block;
     cursor: pointer;
-    text-align: center;
+    text-align:center;
     border: none;
 }
 .rdTabs:checked ~ label{
