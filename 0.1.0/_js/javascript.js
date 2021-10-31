@@ -9,11 +9,12 @@ function validateLogonCriarConta(){
         return false;
     } 
     if ((iCodeVisible != null) && (inputCode != "")){
-        window.open("home.html");
+        window.open("home.html","_self");
         return true;
     } 
         
     if ((iCodeVisible == null) && (logonValidaSenha(passwd,passwdConfirm))){
+//        window.open("http://www.w3schools.com","_blank");
         document.getElementById("dConfirmCode").style.display = "block";
     }
     return false;
