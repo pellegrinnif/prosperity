@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <script src="_js/javascript.js"></script>
+    <title>Prosperidade</title>
+</head>
+
+<body class="corpo">
+    <header>
+        <object width="100%" height="100%" data="logonCabecalho.html"></object>
+    </header>
+    <form onsubmit="return validateLogonCriarConta();" name="formularioData">
+        <div class="logonFrame">
+            <div class="logonFormItem" id="mobileNumber">
+                <label for="mobileNumber">Celular</label>
+                <input type="tel" name="mobileNumber" id="mobileNumber">
+            </div>
+            <div class="logonFormItem" id="logonFormEmail">
+                <label for="logonFormEmail">E-mail</label>
+                <input type="email" name="logonFormEmail" id="logonFormEmail">
+            </div>
+            <div class="logonFormItem" id="logonFormPasswd">
+                <label for="logonFormPasswd">Senha</label>
+                <input type="password" name="logonFormPasswd" id="logonFormPasswd">
+            </div>
+            <div class="logonFormItem" id="logonFormPasswdConfirm">
+                <label for="logonFormPasswdConfirm">Confirmar Senha</label>
+                <input type="password" name="logonFormPasswdConfirm" id="logonFormPasswdConfirm">
+            </div>
+            <div class="logonFormItem" id="logonFormNome">
+                <label for="logonFormNome">Nome Completo</label>
+                <input type="text" name="logonFormNome" id="logonFormNome">
+                </d3iv>
+                <div id="optionButton">
+                    <button type="reset" class="logonButtonExit">Sair</button>
+                    <button type="submit" class="logonButtonSend">Enviar</button>
+                </div>
+            </div>
+            <div class="confirmarCodigo" style="display: none;" id="dConfirmCode">
+                <p id="pConfirmCode">Um código foi enviado para o e-mail informado. Digite o código no espaço abaixo para confirmar seu cadastro</p>
+                <input type="text" name="confirmCode" id="iConfirmCode"/><br>
+                <button type="submit" id="bConfirmCode" class="logonButtonSend">Enviar</button>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <object width="100%" height="100%" data="logonRodape.html"></object>
+    </footer>
+</body>
+
+</html>
