@@ -5,7 +5,14 @@
 
 .navTabs{
   width: 340px;
-  height: 300px;
+  height: 340px;
+  margin: 10px;
+  position: relative;
+  border: 1px solid rgb(218, 216, 216);
+}
+.navTabs-minhasCompetenciasRecursos{
+  width: 340px;
+  height: 400px;
   margin: 10px;
   position: relative;
   border: 1px solid rgb(218, 216, 216);
@@ -13,7 +20,13 @@
 .navTabs ul{
   list-style: none;
 }
+.navTabs-minhasCompetenciasRecursos ul{
+  list-style: none;
+}
 .navTabs ul li{
+  float: left;
+}
+.navTabs-minhasCompetenciasRecursos ul li{
   float: left;
 }
 .navTabs label{
@@ -25,6 +38,16 @@
   text-align:center;
   border: none;
 }
+.navTabs-minhasCompetenciasRecursos label{
+  width: 150px;
+  padding: 5px;
+  margin: 5px;
+  display: block;
+  cursor: pointer;
+  text-align:center;
+  border: none;
+}
+
 .rdTabs:checked ~ label{
   border-bottom: 1px solid grey;
 }
@@ -46,6 +69,9 @@
 }
 .tabContend article{
   padding: 5px;
+}
+.tabContend article p{
+  padding: 0 0 5px 0;
 }
 header{
   margin: 0;
@@ -75,6 +101,19 @@ header{
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.itemProjeto{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin: 0 0 5px 5px;
+}
+.itemProjeto img{
+
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
 }
 
 /* Logon Frame */
